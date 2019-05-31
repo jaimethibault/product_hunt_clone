@@ -24,4 +24,5 @@ class ProductsTest < ApplicationSystemTestCase
     assert_equal root_path, page.current_path
     assert_text "Change your life: Learn to code"
   end
+
 end
